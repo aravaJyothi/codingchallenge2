@@ -1,0 +1,65 @@
+.timer{
+    color:hsl(345, 95%, 68%);
+    background: hsl(236, 21%, 26%);
+    font-size: 50px;
+    padding: 10px;
+    min-width:150px;
+    border-radius: 5px;
+    box-shadow:0 8px 6px -6px  hsl(236, 21%, 26%);
+    padding:30px;
+}
+
+.headingsOfTimer{
+    font-size: 9px !important;
+    letter-spacing: 2px !important;
+    color: hsl(237, 18%, 59%);
+}
+.timersection{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height:120px;
+    margin: auto;
+    flex:1;
+    align-items:center;
+  flex-wrap: nowrap;
+    
+}
+.headingsection{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height:50px;
+    margin: auto;
+
+}
+
+@media (min-device-width: 320px) and (max-device-width: 1200px) 
+{
+  .timer{
+      font-size: 20px;
+      min-width:85px;
+      margin-right:5px;
+  }
+  .timersection{
+    width: 100vw;
+  }
+  .headingsection{ 
+      width: 103vw ;
+  }
+}
+@media (min-device-width: 768px) and (max-device-width:1024px)
+{
+  .timer{
+      font-size: 50px;
+      min-width:115px;
+  }
+  .timersection{
+    width: 100vw;
+  }
+  .headingsection{ 
+      width: 103vw ;
+  }
+}
